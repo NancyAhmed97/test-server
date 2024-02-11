@@ -1,11 +1,7 @@
 {
     "version": 2,
     "builds":[{"src":"./index.js","use":"@vercel/node"}],
-    "routes":[{"src":"/(.*)","dest":"/"}],
-        "timeout": {
-          "default": 10,
-          "maximum": 20
-        }
+    "routes":[{"src":"/(.*)","dest":"/"}]
       
       
 }
