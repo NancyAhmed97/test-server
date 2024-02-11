@@ -36,7 +36,7 @@ mongoose.connect(process.env.CONNECTION_STRING)
 
 
 app.use("/",(req,res)=>{
-res.send('hellovvvv1')
+res.send('hellovvvv2')
 })
 app.listen(5000, ()=>{
 
