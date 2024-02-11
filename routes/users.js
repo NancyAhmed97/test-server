@@ -5,7 +5,6 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 router.get(`/`, async (req, res) =>{
     const userList = await User.find();
-console.log(userList);
 res.send('cvjkl;kjmvcfxcvm,');
 
     // if(!userList) {
